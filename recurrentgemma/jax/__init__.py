@@ -18,7 +18,7 @@ from recurrentgemma import common
 from recurrentgemma.jax import griffin
 from recurrentgemma.jax import layers
 from recurrentgemma.jax import modules
-from recurrentgemma.jax import sampler
+#from recurrentgemma.jax import sampler
 from recurrentgemma.jax import scan
 from recurrentgemma.jax import utils
 
@@ -39,7 +39,7 @@ LocalAttentionBlock = modules.LocalAttentionBlock
 ResidualBlockCache = modules.ResidualBlockCache
 ResidualBlock = modules.ResidualBlock
 Griffin = griffin.Griffin
-Sampler = sampler.Sampler
+#Sampler = sampler.Sampler
 load_parameters = utils.load_parameters
 
 
@@ -60,7 +60,7 @@ __all__ = (
     "Preset",
     "GriffinConfig",
     "Griffin",
-    "Sampler",
+    #"Sampler",
     "load_parameters",
 )
 
